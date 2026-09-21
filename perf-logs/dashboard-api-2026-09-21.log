@@ -1,0 +1,259 @@
+08:36:01.557  [LOCAL]   GET     200     61ms                             -           /api/auth/session
+              > session refresh πριν το request
+08:36:01.797  [LOCAL]   GET     200    299ms                         860 B           /liberal/customapi/me
+08:36:01.851  [LOCAL]   GET    ERR_CANCELED      0ms                             -           /liberal/customapi/admin/opinions
+08:36:01.851  [LOCAL]   GET    ERR_CANCELED      0ms                             -           /liberal/customapi/home-layout
+08:36:02.025  [LOCAL]   GET     200    174ms                             -           /liberal/customapi/home-layout
+08:36:02.117  [LOCAL]   GET     200    266ms                          54 B           /liberal/customapi/admin/opinions
+08:36:03.191  [LOCAL]   GET     200    164ms                             -           /liberal/customapi/home-layout
+08:36:05.428  [LOCAL]   GET     200    234ms                             -           /liberal/customapi/home-layout
+08:36:16.608  [LOCAL]   GET     200     81ms                             -           /api/auth/session
+              > session refresh πριν το request
+08:36:16.934  [LOCAL]   GET     200    407ms                         860 B           /liberal/customapi/me
+08:36:16.986  [LOCAL]   GET    ERR_CANCELED      1ms                             -           /liberal/customapi/admin/opinions
+08:36:16.986  [LOCAL]   GET    ERR_CANCELED      1ms                             -           /liberal/customapi/home-layout
+08:36:17.112  [LOCAL]   GET     200    127ms                          54 B           /liberal/customapi/admin/opinions
+08:36:17.113  [LOCAL]   GET     200    128ms                             -           /liberal/customapi/home-layout
+08:36:18.189  [LOCAL]   GET     200     73ms                             -           /liberal/customapi/home-layout
+08:36:20.288  [LOCAL]   GET     200     76ms                             -           /liberal/customapi/home-layout
+08:36:35.556  [LOCAL]   GET    ERR_CANCELED      1ms                             -           /liberal/customapi/advertising-tools/admin
+              | state=1
+              | sort=promoted_date
+              | direction=DESC
+              | page=0
+              | per_page=100
+08:36:35.556  [LOCAL]   GET    ERR_CANCELED      1ms                             -           /liberal/customapi/advertising-tools/admin
+              | state=0
+              | sort=history_date
+              | direction=DESC
+              | page=0
+              | per_page=25
+08:36:35.863  [LOCAL]   GET     200    307ms                         195 B           /liberal/customapi/advertising-tools/admin
+              | state=1
+              | sort=promoted_date
+              | direction=DESC
+              | page=0
+              | per_page=100
+08:36:35.863  [LOCAL]   GET     200    308ms                         194 B           /liberal/customapi/advertising-tools/admin
+              | state=0
+              | sort=history_date
+              | direction=DESC
+              | page=0
+              | per_page=25
+08:36:37.828  [LOCAL]   GET    ERR_CANCELED      1ms                             -           /liberal/customapi/home-layout
+08:36:37.968  [LOCAL]   GET     200    140ms                             -           /liberal/customapi/home-layout
+08:36:39.201  [LOCAL]   GET     200    231ms                             -           /liberal/customapi/home-layout
+08:36:41.366  [LOCAL]   GET     200    165ms                             -           /liberal/customapi/home-layout
+08:47:24.152  [LOCAL]   GET    ERR_CANCELED      1ms                          54 B           /liberal/customapi/admin/opinions
+08:47:24.322  [LOCAL]   GET     200    191ms                             -           /liberal/customapi/home-layout
+08:47:24.323  [LOCAL]   GET     200    172ms                          54 B           /liberal/customapi/admin/opinions
+08:47:24.359  [LOCAL]   GET     200    227ms                         860 B           /liberal/customapi/me
+08:47:25.544  [LOCAL]   GET     200    220ms                             -           /liberal/customapi/home-layout
+08:47:27.677  [LOCAL]   GET     200    133ms                             -           /liberal/customapi/home-layout
+08:48:28.154  [LOCAL]   GET    ERR_CANCELED      0ms                          54 B           /liberal/customapi/admin/opinions
+08:48:28.277  [LOCAL]   GET     200    123ms                          54 B           /liberal/customapi/admin/opinions
+08:48:28.278  [LOCAL]   GET     200    136ms                             -           /liberal/customapi/home-layout
+08:48:28.320  [LOCAL]   GET     200    178ms                         860 B           /liberal/customapi/me
+08:48:29.421  [LOCAL]   GET     200    143ms                             -           /liberal/customapi/home-layout
+08:48:31.519  [LOCAL]   GET     200     97ms                             -           /liberal/customapi/home-layout
+09:33:29.321  [LOCAL]   GET    ERR_CANCELED      0ms                          54 B           /liberal/customapi/admin/opinions
+09:33:32.214  [LOCAL]   GET     200   2944ms <<<                         -           /liberal/customapi/home-layout
+09:33:32.215  [LOCAL]   GET     200   2895ms <<<                      54 B           /liberal/customapi/admin/opinions
+09:33:32.260  [LOCAL]   GET     200   2990ms <<<                     860 B           /liberal/customapi/me
+09:33:39.765  [LOCAL]   GET     200   6549ms <<<<                        -           /liberal/customapi/home-layout
+09:33:42.655  [LOCAL]   GET     200    888ms                             -           /liberal/customapi/home-layout
+09:34:35.349  [LOCAL]   GET    ERR_CANCELED      0ms                          54 B           /liberal/customapi/admin/opinions
+09:34:36.388  [LOCAL]   GET     200   1049ms <<                          -           /liberal/customapi/home-layout
+09:34:36.388  [LOCAL]   GET     200   1039ms <<                       54 B           /liberal/customapi/admin/opinions
+09:34:36.431  [LOCAL]   GET     200   1093ms <<                      860 B           /liberal/customapi/me
+09:34:37.496  [LOCAL]   GET     200    107ms                             -           /liberal/customapi/home-layout
+09:34:39.938  [LOCAL]   GET     200    441ms                             -           /liberal/customapi/home-layout
+09:35:37.405  [LOCAL]   GET    ERR_CANCELED      0ms                          54 B           /liberal/customapi/admin/opinions
+09:35:37.542  [LOCAL]   GET     200    147ms                             -           /liberal/customapi/home-layout
+09:35:37.542  [LOCAL]   GET     200    137ms                          54 B           /liberal/customapi/admin/opinions
+09:35:37.577  [LOCAL]   GET     200    184ms                         860 B           /liberal/customapi/me
+09:35:38.702  [LOCAL]   GET     200    159ms                             -           /liberal/customapi/home-layout
+09:35:41.230  [LOCAL]   GET     200    527ms                             -           /liberal/customapi/home-layout
+09:36:41.251  [LOCAL]   GET    ERR_CANCELED      0ms                          54 B           /liberal/customapi/admin/opinions
+09:36:42.711  [LOCAL]   GET     200   1461ms <<                       54 B           /liberal/customapi/admin/opinions
+09:36:42.756  [LOCAL]   GET     200   1514ms <<                          -           /liberal/customapi/home-layout
+09:36:42.781  [LOCAL]   GET     200   1539ms <<                      860 B           /liberal/customapi/me
+09:36:44.683  [LOCAL]   GET     200    926ms                             -           /liberal/customapi/home-layout
+09:36:47.546  [LOCAL]   GET     200    862ms                             -           /liberal/customapi/home-layout
+09:37:45.188  [LOCAL]   GET    ERR_CANCELED      1ms                          54 B           /liberal/customapi/admin/opinions
+09:37:45.930  [LOCAL]   GET     200    751ms                             -           /liberal/customapi/home-layout
+09:37:45.931  [LOCAL]   GET     200    744ms                          54 B           /liberal/customapi/admin/opinions
+09:37:45.973  [LOCAL]   GET     200    794ms                         860 B           /liberal/customapi/me
+09:37:47.434  [LOCAL]   GET     200    502ms                             -           /liberal/customapi/home-layout
+09:37:49.863  [LOCAL]   GET     200    427ms                             -           /liberal/customapi/home-layout
+10:16:20.094  [LOCAL]   GET     200     78ms                             -           /api/auth/session
+              > session refresh πριν το request
+10:16:20.357  [LOCAL]   GET     200    340ms                         928 B           /liberal/customapi/me
+10:16:20.413  [LOCAL]   GET    ERR_CANCELED      0ms                             -           /liberal/customapi/admin/opinions
+10:16:20.413  [LOCAL]   GET    ERR_CANCELED      0ms                             -           /liberal/customapi/home-layout
+10:16:20.527  [LOCAL]   GET     200    114ms                             -           /liberal/customapi/home-layout
+10:16:20.619  [LOCAL]   GET     200    206ms                          54 B           /liberal/customapi/admin/opinions
+10:16:20.640  [LOCAL]   GET     200    112ms                        1.2 KB           /liberal/customapi/section-templates
+10:16:21.219  [LOCAL]   GET     200    691ms                       14.4 KB      n=4  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category,field_arthrografos,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | include=field_liberal_category,field_arthrografos
+              | page[offset]=0
+              | page[limit]=6
+              | filter[ids][condition][path]=id
+              | filter[ids][condition][operator]=IN
+              | filter[ids][condition][value][0]=d34b779c-f4e8-4853-b2b1-1b8da27e53da
+              | filter[ids][condition][value][1]=41f102aa-d845-4516-9465-e513b97bf7a7
+              | filter[ids][condition][value][2]=2fd8fde2-a74e-4468-93e4-226489ebe62b
+              | filter[ids][condition][value][3]=63cc0016-82ee-45bf-8c47-a87adf7f7d1c
+              | filter[ids][condition][value][4]=ok
+              | filter[ids][condition][value][5]=t
+10:19:17.866  [LOCAL]   GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:19:17.866  [LOCAL]   GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/oblations
+              | fields[taxonomy_term--oblations]=name,field_ob_internal_name
+              | page[offset]=0
+              | page[limit]=50
+              | sort=name
+10:19:17.866  [LOCAL]   GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:19:18.497  [LOCAL]   GET     200    631ms                       29.3 KB     n=83  /liberal/unicornapi/taxonomy_term/oblations
+              | fields[taxonomy_term--oblations]=name,field_ob_internal_name
+              | page[offset]=0
+              | page[limit]=50
+              | sort=name
+10:19:18.749  [LOCAL]   GET     200    884ms                       53.5 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:19:19.152  [LOCAL]   GET     200    654ms                       21.5 KB     n=83  /liberal/unicornapi/taxonomy_term/oblations
+              | fields[taxonomy_term--oblations]=name,field_ob_internal_name
+              | page[offset]=50
+              | page[limit]=50
+              | sort=name
+10:19:19.617  [LOCAL]   GET     200    867ms                       48.0 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+10:19:20.206  [LOCAL]   GET     200    588ms                       29.1 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+10:19:20.400  [LOCAL]   GET     200   2534ms <<<                  143.1 KB n=603872  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:19:26.333  [LOCAL]   POST    200    153ms                          44 B           /liberal/customapi/home-layout
+10:19:26.335  [LOCAL]   GET    ERR_CANCELED      1ms                          44 B           /liberal/customapi/home-layout
+10:19:26.825  [LOCAL]   GET     200    491ms                          44 B           /liberal/customapi/home-layout
+10:19:26.890  [LOCAL]   GET     200     65ms                        1.2 KB           /liberal/customapi/section-templates
+10:19:26.982  [LOCAL]   GET     200    157ms                       14.4 KB      n=4  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category,field_arthrografos,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | include=field_liberal_category,field_arthrografos
+              | page[offset]=0
+              | page[limit]=6
+              | filter[ids][condition][path]=id
+              | filter[ids][condition][operator]=IN
+              | filter[ids][condition][value][0]=d34b779c-f4e8-4853-b2b1-1b8da27e53da
+              | filter[ids][condition][value][1]=41f102aa-d845-4516-9465-e513b97bf7a7
+              | filter[ids][condition][value][2]=2fd8fde2-a74e-4468-93e4-226489ebe62b
+              | filter[ids][condition][value][3]=63cc0016-82ee-45bf-8c47-a87adf7f7d1c
+              | filter[ids][condition][value][4]=ok
+              | filter[ids][condition][value][5]=t
+10:19:58.645  [LOCAL]   POST    200    291ms                          44 B           /liberal/customapi/home-layout
+10:19:58.646  [LOCAL]   GET    ERR_CANCELED      1ms                          44 B           /liberal/customapi/home-layout
+10:19:58.713  [LOCAL]   GET     200     68ms                          44 B           /liberal/customapi/home-layout
+10:19:58.811  [LOCAL]   GET     200     96ms                        1.2 KB           /liberal/customapi/section-templates
+10:19:58.928  [LOCAL]   GET     200    212ms                       18.5 KB      n=5  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category,field_arthrografos,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | include=field_liberal_category,field_arthrografos
+              | page[offset]=0
+              | page[limit]=7
+              | filter[ids][condition][path]=id
+              | filter[ids][condition][operator]=IN
+              | filter[ids][condition][value][0]=d34b779c-f4e8-4853-b2b1-1b8da27e53da
+              | filter[ids][condition][value][1]=41f102aa-d845-4516-9465-e513b97bf7a7
+              | filter[ids][condition][value][2]=2fd8fde2-a74e-4468-93e4-226489ebe62b
+              | filter[ids][condition][value][3]=63cc0016-82ee-45bf-8c47-a87adf7f7d1c
+              | filter[ids][condition][value][4]=1b3581a4-4118-40fc-a931-7fc9de78eb1a
+              | filter[ids][condition][value][5]=ok
+              | filter[ids][condition][value][6]=t
+10:21:08.784  [LOCAL]   GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/section/section
+              | fields[section]=id,internal_name,display_name,created,article_slot,template,template_label,link,can_be_deleted
+              | fields[section--section]=id,internal_name,display_name,created,article_slot,template,template_label,link,can_be_deleted
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:21:09.014  [LOCAL]   GET     200    233ms                        1.2 KB           /liberal/customapi/section-templates
+10:21:09.055  [LOCAL]   GET     200    272ms                        1.9 KB      n=3  /liberal/unicornapi/section/section
+              | fields[section]=id,internal_name,display_name,created,article_slot,template,template_label,link,can_be_deleted
+              | fields[section--section]=id,internal_name,display_name,created,article_slot,template,template_label,link,can_be_deleted
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:21:51.915  [LOCAL]   POST    201    182ms                        1.4 KB           /liberal/unicornapi/section/section
+10:21:52.018  [LOCAL]   GET    ERR_CANCELED      1ms                        1.9 KB           /liberal/unicornapi/section/section
+              | fields[section]=id,internal_name,display_name,created,article_slot,template,template_label,link,can_be_deleted
+              | fields[section--section]=id,internal_name,display_name,created,article_slot,template,template_label,link,can_be_deleted
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:21:52.353  [LOCAL]   GET     200    336ms                        2.3 KB      n=4  /liberal/unicornapi/section/section
+              | fields[section]=id,internal_name,display_name,created,article_slot,template,template_label,link,can_be_deleted
+              | fields[section--section]=id,internal_name,display_name,created,article_slot,template,template_label,link,can_be_deleted
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:22:19.614  [LOCAL]   GET    ERR_CANCELED      2ms                          54 B           /liberal/customapi/admin/opinions
+10:22:19.614  [LOCAL]   GET    ERR_CANCELED      2ms                          44 B           /liberal/customapi/home-layout
+10:22:20.164  [LOCAL]   GET     200    551ms                          54 B           /liberal/customapi/admin/opinions
+10:22:20.165  [LOCAL]   GET     200    553ms                          44 B           /liberal/customapi/home-layout
+10:22:20.551  [LOCAL]   GET     200    385ms                        1.2 KB           /liberal/customapi/section-templates
+10:22:20.665  [LOCAL]   GET     200    499ms                       18.5 KB      n=5  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category,field_arthrografos,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | include=field_liberal_category,field_arthrografos
+              | page[offset]=0
+              | page[limit]=7
+              | filter[ids][condition][path]=id
+              | filter[ids][condition][operator]=IN
+              | filter[ids][condition][value][0]=d34b779c-f4e8-4853-b2b1-1b8da27e53da
+              | filter[ids][condition][value][1]=41f102aa-d845-4516-9465-e513b97bf7a7
+              | filter[ids][condition][value][2]=2fd8fde2-a74e-4468-93e4-226489ebe62b
+              | filter[ids][condition][value][3]=63cc0016-82ee-45bf-8c47-a87adf7f7d1c
+              | filter[ids][condition][value][4]=1b3581a4-4118-40fc-a931-7fc9de78eb1a
+              | filter[ids][condition][value][5]=ok
+              | filter[ids][condition][value][6]=t
+12:37:36.354  [LOCAL]   GET     200    178ms                          54 B           /liberal/customapi/admin/opinions
+12:37:36.357  [LOCAL]   GET     200    182ms                          44 B           /liberal/customapi/home-layout
+12:37:36.406  [LOCAL]   GET     200    230ms                         928 B           /liberal/customapi/me
+12:37:36.449  [LOCAL]   GET     200     91ms                        1.2 KB           /liberal/customapi/section-templates
+12:37:36.550  [LOCAL]   GET     200    191ms                       18.5 KB      n=5  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category,field_arthrografos,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | include=field_liberal_category,field_arthrografos
+              | page[offset]=0
+              | page[limit]=7
+              | filter[ids][condition][path]=id
+              | filter[ids][condition][operator]=IN
+              | filter[ids][condition][value][0]=d34b779c-f4e8-4853-b2b1-1b8da27e53da
+              | filter[ids][condition][value][1]=41f102aa-d845-4516-9465-e513b97bf7a7
+              | filter[ids][condition][value][2]=2fd8fde2-a74e-4468-93e4-226489ebe62b
+              | filter[ids][condition][value][3]=63cc0016-82ee-45bf-8c47-a87adf7f7d1c
+              | filter[ids][condition][value][4]=1b3581a4-4118-40fc-a931-7fc9de78eb1a
+              | filter[ids][condition][value][5]=ok
+              | filter[ids][condition][value][6]=t

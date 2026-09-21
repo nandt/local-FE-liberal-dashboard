@@ -1,0 +1,16 @@
+services:
+  fe-dashboard:
+    build: .
+    container_name: fe-dashboard-v3
+    network_mode: host
+    working_dir: /app
+    volumes:
+      - ./liberal-dashboard-app-web-v3:/app
+      - fe_node_modules:/app/node_modules
+      # ΤΟΠΙΚΟ ΜΟΝΟ — εδώ γράφει το /api/devlog τους χρόνους των API calls.
+      - ./perf-logs:/perf-logs
+    environment:
+      PERF_LOG_DIR: /perf-logs
+    env_file: .env.docker
+volumes:
+  fe_node_modules:

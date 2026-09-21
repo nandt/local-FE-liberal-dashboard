@@ -1,0 +1,2106 @@
+07:49:12.512  [ENV]     GET     200    272ms                        2.7 KB      n=5  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+07:49:12.514  [ENV]     GET     200    273ms                        1.4 KB      n=1  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+07:49:12.518  [ENV]     GET     200    278ms                         945 B           /liberal/customapi/me
+07:49:12.631  [ENV]     GET     200    390ms                       11.7 KB      n=2  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+07:49:12.729  [ENV]     GET     200    488ms                       13.4 KB     n=10  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=25
+              | sort=name
+              | filter[s][group][conjunction]=OR
+              | filter[a][condition][path]=field_author_firstname
+              | filter[a][condition][operator]=CONTAINS
+              | filter[a][condition][value]=bi
+              | filter[a][condition][memberOf]=s
+              | filter[b][condition][path]=field_author_lastname
+              | filter[b][condition][operator]=CONTAINS
+              | filter[b][condition][value]=bi
+              | filter[b][condition][memberOf]=s
+              | filter[c][condition][path]=name
+              | filter[c][condition][operator]=CONTAINS
+              | filter[c][condition][value]=bi
+              | filter[c][condition][memberOf]=s
+07:49:13.167  [ENV]     GET     200    927ms                       53.5 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+07:49:14.133  [ENV]     GET     200    964ms                       48.0 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+07:49:14.740  [ENV]     GET     200    606ms                       29.1 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+07:51:31.596  [ENV]     GET     200    278ms                        1.4 KB      n=1  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+07:51:31.642  [ENV]     GET     200    324ms                        2.7 KB      n=5  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+07:51:31.677  [ENV]     GET     200    358ms                         945 B           /liberal/customapi/me
+07:51:31.750  [ENV]     GET     200    432ms                       11.7 KB      n=2  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+07:51:31.794  [ENV]     GET     200    476ms                       13.4 KB     n=10  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=25
+              | sort=name
+              | filter[s][group][conjunction]=OR
+              | filter[a][condition][path]=field_author_firstname
+              | filter[a][condition][operator]=CONTAINS
+              | filter[a][condition][value]=bi
+              | filter[a][condition][memberOf]=s
+              | filter[b][condition][path]=field_author_lastname
+              | filter[b][condition][operator]=CONTAINS
+              | filter[b][condition][value]=bi
+              | filter[b][condition][memberOf]=s
+              | filter[c][condition][path]=name
+              | filter[c][condition][operator]=CONTAINS
+              | filter[c][condition][value]=bi
+              | filter[c][condition][memberOf]=s
+07:51:32.051  [ENV]     GET     200    734ms                       53.5 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+07:51:32.893  [ENV]     GET     200    842ms                       48.0 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+07:51:33.562  [ENV]     GET     200    667ms                       29.1 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+07:58:36.473  [ENV]     GET     200    232ms                        1.4 KB      n=1  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+07:58:36.511  [ENV]     GET     200    270ms                        2.7 KB      n=5  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+07:58:36.565  [ENV]     GET     200    324ms                         945 B           /liberal/customapi/me
+07:58:36.634  [ENV]     GET     200    394ms                       11.7 KB      n=2  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+07:58:36.704  [ENV]     GET     200    464ms                       13.4 KB     n=10  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=25
+              | sort=name
+              | filter[s][group][conjunction]=OR
+              | filter[a][condition][path]=field_author_firstname
+              | filter[a][condition][operator]=CONTAINS
+              | filter[a][condition][value]=bi
+              | filter[a][condition][memberOf]=s
+              | filter[b][condition][path]=field_author_lastname
+              | filter[b][condition][operator]=CONTAINS
+              | filter[b][condition][value]=bi
+              | filter[b][condition][memberOf]=s
+              | filter[c][condition][path]=name
+              | filter[c][condition][operator]=CONTAINS
+              | filter[c][condition][value]=bi
+              | filter[c][condition][memberOf]=s
+07:58:36.974  [ENV]     GET     200    733ms                       53.5 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+07:58:37.856  [ENV]     GET     200    881ms                       48.0 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+07:58:38.695  [ENV]     GET     200    838ms                       29.1 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+08:10:55.457  [ENV]     GET     200    216ms                        1.4 KB      n=1  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+08:10:55.486  [ENV]     GET     200    245ms                         945 B           /liberal/customapi/me
+08:10:55.500  [ENV]     GET     200    260ms                        2.7 KB      n=5  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+08:10:55.588  [ENV]     GET     200    347ms                       11.7 KB      n=2  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+08:10:55.660  [ENV]     GET     200    420ms                       13.4 KB     n=10  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=25
+              | sort=name
+              | filter[s][group][conjunction]=OR
+              | filter[a][condition][path]=field_author_firstname
+              | filter[a][condition][operator]=CONTAINS
+              | filter[a][condition][value]=bi
+              | filter[a][condition][memberOf]=s
+              | filter[b][condition][path]=field_author_lastname
+              | filter[b][condition][operator]=CONTAINS
+              | filter[b][condition][value]=bi
+              | filter[b][condition][memberOf]=s
+              | filter[c][condition][path]=name
+              | filter[c][condition][operator]=CONTAINS
+              | filter[c][condition][value]=bi
+              | filter[c][condition][memberOf]=s
+08:10:56.023  [ENV]     GET     200    782ms                       53.5 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+08:10:56.933  [ENV]     GET     200    909ms                       48.0 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+08:10:57.641  [ENV]     GET     200    707ms                       29.1 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+09:50:09.742  [ENV]     GET     200    405ms                        1.4 KB      n=1  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+09:50:09.751  [ENV]     GET     200    415ms                        2.7 KB      n=5  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+09:50:09.782  [ENV]     GET     200    446ms                         945 B           /liberal/customapi/me
+09:50:09.818  [ENV]     GET     200    481ms                       11.7 KB      n=2  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+09:50:09.857  [ENV]     GET     200    521ms                       13.4 KB     n=10  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=25
+              | sort=name
+              | filter[s][group][conjunction]=OR
+              | filter[a][condition][path]=field_author_firstname
+              | filter[a][condition][operator]=CONTAINS
+              | filter[a][condition][value]=bi
+              | filter[a][condition][memberOf]=s
+              | filter[b][condition][path]=field_author_lastname
+              | filter[b][condition][operator]=CONTAINS
+              | filter[b][condition][value]=bi
+              | filter[b][condition][memberOf]=s
+              | filter[c][condition][path]=name
+              | filter[c][condition][operator]=CONTAINS
+              | filter[c][condition][value]=bi
+              | filter[c][condition][memberOf]=s
+09:50:09.992  [ENV]     GET     200    655ms                       53.5 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+09:50:10.644  [ENV]     GET     200    651ms                       48.0 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+09:50:11.124  [ENV]     GET     200    480ms                       29.1 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.346  [ENV]     GET    ERR_CANCELED      2ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.346  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.347  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.348  [ENV]     GET    ERR_CANCELED      2ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                        1.4 KB           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:49.348  [ENV]     GET    ERR_CANCELED      3ms                       11.7 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=573dc1e0-086d-4624-aeaf-89b918860759
+10:00:51.506  [ENV]     GET    ERR_CANCELED      1ms                       53.5 KB           /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:00:51.506  [ENV]     GET    ERR_CANCELED      1ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:51.506  [ENV]     GET    ERR_CANCELED      1ms                        2.7 KB           /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:00:51.506  [ENV]     GET    ERR_CANCELED      1ms                         945 B           /liberal/customapi/me
+10:00:51.770  [ENV]     GET     200    265ms                        2.7 KB      n=5  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:00:51.803  [ENV]     GET     200    297ms                         945 B           /liberal/customapi/me
+10:00:52.080  [ENV]     GET     200    576ms                       53.5 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:00:52.234  [ENV]     GET     200    728ms                      145.1 KB n=610999  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:00:52.780  [ENV]     GET     200    699ms                       48.0 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+10:00:53.861  [ENV]     GET     200   1081ms <<                    29.1 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+10:01:26.195  [REMOTE]  GET     200    280ms                             -           /api/auth/session
+              > session refresh πριν το request
+10:01:28.617  [REMOTE]  GET     200   2702ms <<<                     928 B           /liberal/customapi/me
+10:01:28.697  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/customapi/admin/opinions
+10:01:28.697  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/customapi/home-layout
+10:01:29.853  [REMOTE]  GET     200   1158ms <<                       36 B           /liberal/customapi/admin/opinions
+10:01:30.243  [REMOTE]  GET     200   1547ms <<                          -           /liberal/customapi/home-layout
+10:01:32.095  [REMOTE]  GET     200   1844ms <<                     1.2 KB           /liberal/customapi/section-templates
+10:01:38.225  [REMOTE]  GET     200   7974ms <<<<                  42.9 KB     n=13  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category,field_arthrografos,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | include=field_liberal_category,field_arthrografos
+              | page[offset]=0
+              | page[limit]=17
+              | filter[ids][condition][path]=id
+              | filter[ids][condition][operator]=IN
+              | filter[ids][condition][value][0]=7b78eeb7-6cf0-4809-948b-bdc5a37cfd38
+              | filter[ids][condition][value][1]=5b34b862-19ea-4d16-a163-77f5e30407b0
+              | filter[ids][condition][value][2]=52745851-3fdc-48f6-a12b-1edc5cc56fdd
+              | filter[ids][condition][value][3]=089a8b96-fb8b-45af-8407-8b88fee185a6
+              | filter[ids][condition][value][4]=ae0e7367-e137-4a17-a348-54e69c3e27e3
+              | filter[ids][condition][value][5]=ced44626-b8cc-40a0-82b3-e83e6ea0827b
+              | filter[ids][condition][value][6]=37e0af47-9f17-42e6-9e0b-25da824440d7
+              | filter[ids][condition][value][7]=4c1f7982-57ac-40eb-a391-bbe0cb9e363f
+              | filter[ids][condition][value][8]=943c779c-8e11-4b14-950a-3688cf4c206b
+              | filter[ids][condition][value][9]=81a8bf2e-478a-4606-87ec-b3f65ca54438
+              | filter[ids][condition][value][10]=c7be8bdc-6502-4e09-ae2a-3ce94167eb34
+              | filter[ids][condition][value][11]=7c5857a1-f7d9-4d83-97be-52e32baba64a
+              | filter[ids][condition][value][12]=5e66ac7d-6399-4937-a5d8-f30208ed325b
+              | filter[ids][condition][value][13]=83a37295-fdc4-49f0-9919-7b35648fd0c9
+              | filter[ids][condition][value][14]=5f8d0565-f390-42a3-b92d-4895a6867736
+              | filter[ids][condition][value][15]=240e063f-8b33-47ec-9c7e-552cefa7be2f
+              | filter[ids][condition][value][16]=a54e83bd-a23f-4dfc-87b4-e1df768fe355
+10:01:38.574  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=0
+              | page[limit]=50
+10:01:38.574  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=14
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:38.574  [REMOTE]  GET    ERR_CANCELED      3ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=50
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:38.574  [REMOTE]  GET    ERR_CANCELED      3ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=99
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:38.574  [REMOTE]  GET    ERR_CANCELED      3ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=79
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:38.574  [REMOTE]  GET    ERR_CANCELED      3ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=103
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:38.574  [REMOTE]  GET    ERR_CANCELED      3ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=8
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:38.574  [REMOTE]  GET    ERR_CANCELED      3ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=77
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:41.026  [REMOTE]  GET    ERR_CANCELED   2454ms <<<                         -           /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=0
+              | page[limit]=50
+10:01:41.026  [REMOTE]  GET    ERR_CANCELED   2455ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=14
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:41.026  [REMOTE]  GET    ERR_CANCELED   2455ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=50
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:41.026  [REMOTE]  GET    ERR_CANCELED   2455ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=99
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:41.026  [REMOTE]  GET    ERR_CANCELED   2455ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=79
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:41.026  [REMOTE]  GET    ERR_CANCELED   2455ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=103
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:41.026  [REMOTE]  GET    ERR_CANCELED   2455ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=8
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:41.026  [REMOTE]  GET    ERR_CANCELED   2455ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=77
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:01:41.026  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:01:41.026  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:01:41.026  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:01:47.889  [REMOTE]  GET     200   6864ms <<<<                   3.2 KB      n=6  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:01:52.561  [REMOTE]  GET     200  11536ms <<<<                  55.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:02:00.971  [REMOTE]  GET     200   8408ms <<<<                  49.0 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+10:02:03.607  [REMOTE]  GET     200  22582ms <<<<                 140.3 KB n=116147  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:02:08.437  [REMOTE]  GET     200   7466ms <<<<                  40.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+10:07:37.584  [REMOTE]  GET     200    354ms                             -           /api/auth/session
+              > session refresh πριν το request
+10:07:40.412  [REMOTE]  GET     200   3182ms <<<                     928 B           /liberal/customapi/me
+10:07:40.588  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:07:40.588  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:07:40.588  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:07:43.988  [REMOTE]  GET     200   3401ms <<<                    3.2 KB      n=6  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:07:48.496  [REMOTE]  GET     200   7910ms <<<<                  55.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:07:56.515  [REMOTE]  GET     200   8017ms <<<<                  49.0 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+10:08:03.678  [REMOTE]  GET     200  23092ms <<<<                 140.3 KB n=116147  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:08:06.078  [REMOTE]  GET     200   9562ms <<<<                  40.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+10:08:13.585  [REMOTE]  GET     200   3473ms <<<                     844 B      n=0  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_liberal_category.id]=c3fc7f82-d516-468a-9833-1a236a78cc3b
+10:08:35.564  [REMOTE]  GET     200  16669ms <<<<                 142.1 KB    n=986  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_liberal_category.id]=3213fc96-8896-4a1c-9da6-0281ef7c734a
+10:09:05.185  [REMOTE]  GET     200    281ms                             -           /api/auth/session
+              > session refresh πριν το request
+10:09:10.371  [REMOTE]  GET     200   5467ms <<<<                    928 B           /liberal/customapi/me
+10:09:10.624  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:09:10.625  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:09:10.625  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:09:15.246  [REMOTE]  GET     200   4622ms <<<                    3.2 KB      n=6  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:09:18.505  [REMOTE]  GET     200   7880ms <<<<                  55.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:09:28.063  [REMOTE]  GET     200  17438ms <<<<                 140.3 KB n=116147  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:09:29.073  [REMOTE]  GET     200  10567ms <<<<                  49.0 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+10:09:36.857  [REMOTE]  GET     200   7784ms <<<<                  40.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+10:42:41.529  [REMOTE]  GET     200    360ms                             -           /api/auth/session
+              > session refresh πριν το request
+10:42:43.418  [REMOTE]  GET     200   2248ms <<<                     928 B           /liberal/customapi/me
+10:42:43.511  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/customapi/admin/opinions
+10:42:43.511  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/customapi/home-layout
+10:42:44.598  [REMOTE]  GET     200   1088ms <<                       36 B           /liberal/customapi/admin/opinions
+10:42:44.612  [REMOTE]  GET     200   1101ms <<                          -           /liberal/customapi/home-layout
+10:42:46.124  [REMOTE]  GET     200   1507ms <<                     1.2 KB           /liberal/customapi/section-templates
+10:42:49.766  [REMOTE]  GET     200   5149ms <<<<                  42.9 KB     n=13  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category,field_arthrografos,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | include=field_liberal_category,field_arthrografos
+              | page[offset]=0
+              | page[limit]=17
+              | filter[ids][condition][path]=id
+              | filter[ids][condition][operator]=IN
+              | filter[ids][condition][value][0]=7b78eeb7-6cf0-4809-948b-bdc5a37cfd38
+              | filter[ids][condition][value][1]=5b34b862-19ea-4d16-a163-77f5e30407b0
+              | filter[ids][condition][value][2]=52745851-3fdc-48f6-a12b-1edc5cc56fdd
+              | filter[ids][condition][value][3]=089a8b96-fb8b-45af-8407-8b88fee185a6
+              | filter[ids][condition][value][4]=ae0e7367-e137-4a17-a348-54e69c3e27e3
+              | filter[ids][condition][value][5]=ced44626-b8cc-40a0-82b3-e83e6ea0827b
+              | filter[ids][condition][value][6]=37e0af47-9f17-42e6-9e0b-25da824440d7
+              | filter[ids][condition][value][7]=4c1f7982-57ac-40eb-a391-bbe0cb9e363f
+              | filter[ids][condition][value][8]=943c779c-8e11-4b14-950a-3688cf4c206b
+              | filter[ids][condition][value][9]=81a8bf2e-478a-4606-87ec-b3f65ca54438
+              | filter[ids][condition][value][10]=c7be8bdc-6502-4e09-ae2a-3ce94167eb34
+              | filter[ids][condition][value][11]=7c5857a1-f7d9-4d83-97be-52e32baba64a
+              | filter[ids][condition][value][12]=5e66ac7d-6399-4937-a5d8-f30208ed325b
+              | filter[ids][condition][value][13]=83a37295-fdc4-49f0-9919-7b35648fd0c9
+              | filter[ids][condition][value][14]=5f8d0565-f390-42a3-b92d-4895a6867736
+              | filter[ids][condition][value][15]=240e063f-8b33-47ec-9c7e-552cefa7be2f
+              | filter[ids][condition][value][16]=a54e83bd-a23f-4dfc-87b4-e1df768fe355
+10:42:50.081  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=0
+              | page[limit]=50
+10:42:50.081  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=14
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:50.081  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=50
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:50.081  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=99
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:50.081  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=79
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:50.081  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=103
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:50.081  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=8
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:50.081  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=77
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:51.941  [REMOTE]  GET    ERR_CANCELED   1863ms <<                          -           /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=0
+              | page[limit]=50
+10:42:51.942  [REMOTE]  GET    ERR_CANCELED   1863ms <<                          -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=14
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:51.942  [REMOTE]  GET    ERR_CANCELED   1863ms <<                          -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=50
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:51.942  [REMOTE]  GET    ERR_CANCELED   1863ms <<                          -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=99
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:51.942  [REMOTE]  GET    ERR_CANCELED   1863ms <<                          -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=79
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:51.942  [REMOTE]  GET    ERR_CANCELED   1863ms <<                          -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=103
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:51.942  [REMOTE]  GET    ERR_CANCELED   1863ms <<                          -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=8
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:51.942  [REMOTE]  GET    ERR_CANCELED   1863ms <<                          -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=77
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+10:42:51.942  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:42:51.942  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:42:51.942  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:42:55.145  [REMOTE]  GET     200   3205ms <<<                    3.2 KB      n=6  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:43:02.416  [REMOTE]  GET     200  10476ms <<<<                  55.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:43:07.880  [REMOTE]  GET     200   5462ms <<<<                  49.0 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+10:43:08.558  [REMOTE]  GET     200  16618ms <<<<                 140.6 KB n=116147  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:43:12.810  [REMOTE]  GET     200   4929ms <<<                   40.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+10:49:15.429  [REMOTE]  GET     200    354ms                             -           /api/auth/session
+              > session refresh πριν το request
+10:49:20.146  [REMOTE]  GET     200   5070ms <<<<                    928 B           /liberal/customapi/me
+10:49:20.321  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:49:20.321  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:49:20.321  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:49:24.729  [REMOTE]  GET     200   4408ms <<<                    3.2 KB      n=6  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+10:49:29.000  [REMOTE]  GET     200   8680ms <<<<                  55.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+10:49:37.627  [REMOTE]  GET     200   8625ms <<<<                  49.0 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+10:49:40.843  [REMOTE]  GET     200  20524ms <<<<                 140.6 KB n=116147  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+10:49:41.902  [REMOTE]  GET     200   4275ms <<<                   40.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+10:49:51.709  [REMOTE]  GET     200   3556ms <<<                    1.9 KB      n=1  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=25
+              | sort=name
+              | filter[s][group][conjunction]=OR
+              | filter[a][condition][path]=field_author_firstname
+              | filter[a][condition][operator]=CONTAINS
+              | filter[a][condition][value]=bill
+              | filter[a][condition][memberOf]=s
+              | filter[b][condition][path]=field_author_lastname
+              | filter[b][condition][operator]=CONTAINS
+              | filter[b][condition][value]=bill
+              | filter[b][condition][memberOf]=s
+              | filter[c][condition][path]=name
+              | filter[c][condition][operator]=CONTAINS
+              | filter[c][condition][value]=bill
+              | filter[c][condition][memberOf]=s
+10:49:55.827  [REMOTE]  GET     200   2439ms <<<                     840 B      n=0  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=c2283cd6-0559-4220-a3cf-dd99db6751a2
+10:49:55.828  [REMOTE]  GET     200   2442ms <<<                    1.3 KB      n=1  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=c2283cd6-0559-4220-a3cf-dd99db6751a2
+10:50:04.654  [REMOTE]  GET     200   2402ms <<<                    1.9 KB      n=1  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=25
+              | sort=name
+              | filter[s][group][conjunction]=OR
+              | filter[a][condition][path]=field_author_firstname
+              | filter[a][condition][operator]=CONTAINS
+              | filter[a][condition][value]=ab
+              | filter[a][condition][memberOf]=s
+              | filter[b][condition][path]=field_author_lastname
+              | filter[b][condition][operator]=CONTAINS
+              | filter[b][condition][value]=ab
+              | filter[b][condition][memberOf]=s
+              | filter[c][condition][path]=name
+              | filter[c][condition][operator]=CONTAINS
+              | filter[c][condition][value]=ab
+              | filter[c][condition][memberOf]=s
+10:50:08.544  [REMOTE]  GET     200   2360ms <<<                     840 B      n=0  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_arthrografos.id]=5509fa2b-a57a-4185-b4c5-3d9142a7d736
+10:50:09.064  [REMOTE]  GET     200   2879ms <<<                    1.2 KB      n=1  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=5509fa2b-a57a-4185-b4c5-3d9142a7d736
+10:50:29.015  [REMOTE]  GET     200  15004ms <<<<                 142.0 KB    n=986  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_liberal_category.id]=3213fc96-8896-4a1c-9da6-0281ef7c734a
+11:21:45.651  [ENV]     GET     200    288ms                             -           /api/auth/session
+              > session refresh πριν το request
+11:21:46.870  [ENV]     GET     200   1507ms <<                      945 B           /liberal/customapi/me
+11:21:46.971  [ENV]     GET    ERR_CANCELED      2ms                             -           /liberal/customapi/admin/opinions
+11:21:46.971  [ENV]     GET    ERR_CANCELED      2ms                             -           /liberal/customapi/home-layout
+11:21:47.759  [ENV]     GET     200    790ms                             -           /liberal/customapi/home-layout
+11:21:47.938  [ENV]     GET     200    969ms                          54 B           /liberal/customapi/admin/opinions
+11:21:48.774  [ENV]     GET     200   1013ms <<                     1.2 KB           /liberal/customapi/section-templates
+11:21:50.001  [ENV]     GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+11:21:50.001  [ENV]     GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+11:21:50.001  [ENV]     GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+11:21:50.764  [ENV]     GET     200    763ms                        2.7 KB      n=5  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+11:21:51.511  [ENV]     GET     200   1510ms <<                    53.5 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+11:21:53.049  [ENV]     GET     200   3048ms <<<                  145.1 KB n=610999  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+11:21:53.592  [ENV]     GET     200   2080ms <<<                   48.0 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+11:21:54.295  [ENV]     GET     200    702ms                       29.1 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+11:22:00.998  [ENV]     GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=25
+11:22:02.544  [ENV]     GET     200   1547ms <<                    24.2 KB   n=2807  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=25
+11:22:10.135  [ENV]     GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal/6a6d2171-18e1-452c-b18e-cc1d063bca71
+              | include=field_liberal_category,field_arthrografos,field_pigi_arthroy,field_oblation_category,field_liberal_tags,field_metohi,field_eidos_arthrou,field_homepage_bullets,field_kentriki_fotografia,field_vid_article_series,uid
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,body,field_title,field_subtitle,field_energos_ypertitlos,field_introduction,field_quote,field_impression_image_url,field_kodikas_impression_image,field_no_advertisements,field_show_to_client,field_emfanisi_arthrografoy_stin,field_lezanta_fotografias,field_pigi_fotografias,field_full_width_image,field_metatags,field_liberal_category,field_arthrografos,field_pigi_arthroy,field_oblation_category,field_liberal_tags,field_metohi,field_eidos_arthrou,field_homepage_bullets,field_kentriki_fotografia,field_vid_article_source_code,field_vid_article_series,field_vid_article_episode,uid
+11:22:12.155  [ENV]     GET     200   2022ms <<<                  143.6 KB           /liberal/unicornapi/node/article_liberal/6a6d2171-18e1-452c-b18e-cc1d063bca71
+              | include=field_liberal_category,field_arthrografos,field_pigi_arthroy,field_oblation_category,field_liberal_tags,field_metohi,field_eidos_arthrou,field_homepage_bullets,field_kentriki_fotografia,field_vid_article_series,uid
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,body,field_title,field_subtitle,field_energos_ypertitlos,field_introduction,field_quote,field_impression_image_url,field_kodikas_impression_image,field_no_advertisements,field_show_to_client,field_emfanisi_arthrografoy_stin,field_lezanta_fotografias,field_pigi_fotografias,field_full_width_image,field_metatags,field_liberal_category,field_arthrografos,field_pigi_arthroy,field_oblation_category,field_liberal_tags,field_metohi,field_eidos_arthrou,field_homepage_bullets,field_kentriki_fotografia,field_vid_article_source_code,field_vid_article_series,field_vid_article_episode,uid
+11:22:12.572  [ENV]     GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/taxonomy_term/series
+              | fields[taxonomy_term--series]=id,name
+              | page[offset]=0
+              | page[limit]=25
+              | sort=name
+11:22:12.572  [ENV]     GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/taxonomy_term/oblations
+              | fields[taxonomy_term--oblations]=name,field_ob_internal_name
+              | page[offset]=0
+              | page[limit]=50
+              | sort=name
+11:22:12.572  [ENV]     GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/taxonomy_term/piges_arthron
+              | fields[taxonomy_term--piges_arthron]=name
+              | page[offset]=0
+              | sort=name
+11:22:12.973  [ENV]     GET     200    402ms                        1.6 KB      n=1  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=1
+              | filter[id]=86874db8-d93c-41ba-9911-801ed1878bed
+11:22:13.010  [ENV]     GET     200    439ms                         917 B      n=1  /liberal/unicornapi/taxonomy_term/tags
+              | fields[taxonomy_term--tags]=name,id
+              | page[offset]=0
+              | page[limit]=1
+              | sort=name
+              | filter[id]=bcfeb25a-3484-4584-a91c-32545d1dea9e
+11:22:13.011  [ENV]     GET     200    440ms                        2.5 KB      n=5  /liberal/unicornapi/taxonomy_term/piges_arthron
+              | fields[taxonomy_term--piges_arthron]=name
+              | page[offset]=0
+              | sort=name
+11:22:13.044  [ENV]     GET     200    473ms                         894 B      n=1  /liberal/unicornapi/taxonomy_term/tags
+              | fields[taxonomy_term--tags]=name,id
+              | page[offset]=0
+              | page[limit]=1
+              | sort=name
+              | filter[id]=11ebbf19-5080-4f40-a654-db1204102653
+11:22:13.257  [ENV]     GET     200    686ms                       29.5 KB     n=88  /liberal/unicornapi/taxonomy_term/oblations
+              | fields[taxonomy_term--oblations]=name,field_ob_internal_name
+              | page[offset]=0
+              | page[limit]=50
+              | sort=name
+11:22:13.331  [ENV]     GET     200    760ms                         334 B      n=0  /liberal/unicornapi/taxonomy_term/series
+              | fields[taxonomy_term--series]=id,name
+              | page[offset]=0
+              | page[limit]=25
+              | sort=name
+11:22:14.598  [ENV]     GET     200   1340ms <<                    24.4 KB     n=88  /liberal/unicornapi/taxonomy_term/oblations
+              | fields[taxonomy_term--oblations]=name,field_ob_internal_name
+              | page[offset]=50
+              | page[limit]=50
+              | sort=name
+11:22:35.634  [ENV]     GET    ERR_CANCELED      1ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+11:22:36.956  [ENV]     GET     200   1323ms <<                   145.1 KB n=610999  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+11:23:00.167  [ENV]     GET     200   2329ms <<<                  131.8 KB   n=2483  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_liberal_category.id]=3213fc96-8896-4a1c-9da6-0281ef7c734a
+11:23:03.177  [ENV]     GET    ERR_CANCELED      1ms                       53.5 KB           /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+11:23:04.172  [ENV]     GET     200    996ms                       53.5 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+11:23:06.461  [ENV]     GET     200   2288ms <<<                   48.0 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+11:23:06.981  [ENV]     GET     200    518ms                       29.1 KB    n=127  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+11:23:12.996  [ENV]     GET     200   2409ms <<<                  146.7 KB  n=23731  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+              | filter[field_liberal_category.id]=0658fbdb-f19b-4f01-bbfe-859ce7aaf5ff
+11:23:20.414  [ENV]     POST    200    299ms                          44 B           /liberal/customapi/home-layout
+11:23:20.419  [ENV]     GET    ERR_CANCELED      3ms                          44 B           /liberal/customapi/home-layout
+11:23:21.255  [ENV]     GET     200    836ms                          44 B           /liberal/customapi/home-layout
+11:23:22.624  [ENV]     GET     200   1368ms <<                    22.5 KB      n=6  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category,field_arthrografos,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | include=field_liberal_category,field_arthrografos
+              | page[offset]=0
+              | page[limit]=6
+              | filter[ids][condition][path]=id
+              | filter[ids][condition][operator]=IN
+              | filter[ids][condition][value][0]=0114b134-0b25-4bb2-8131-68d741ca9435
+              | filter[ids][condition][value][1]=b6e3d71d-7c10-4730-bc20-d73363ea23a4
+              | filter[ids][condition][value][2]=429752d6-c8a1-45f1-9919-acaf32dd184a
+              | filter[ids][condition][value][3]=97180629-cf09-4771-9aaa-6872a44e5014
+              | filter[ids][condition][value][4]=94838c71-fc69-4f62-b8f9-b679c65ff00b
+              | filter[ids][condition][value][5]=115e2d10-d7e5-45bb-bba2-f17b06d7884e
+11:23:23.049  [ENV]     GET     200   1793ms <<                     1.2 KB           /liberal/customapi/section-templates
+11:23:25.431  [ENV]     GET    ERR_CANCELED      1ms                      145.1 KB           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+11:23:25.431  [ENV]     GET    ERR_CANCELED      1ms                        2.7 KB           /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+11:23:26.032  [ENV]     GET     200    601ms                        2.7 KB      n=5  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+11:23:26.639  [ENV]     GET     200   1209ms <<                   145.1 KB n=610999  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+11:23:29.163  [ENV]     GET    ERR_CANCELED      1ms                          54 B           /liberal/customapi/admin/opinions
+11:23:29.626  [ENV]     GET     200    463ms                          54 B           /liberal/customapi/admin/opinions
+11:35:13.459  [REMOTE]  GET     200    304ms                             -           /api/auth/session
+              > session refresh πριν το request
+11:35:14.499  [REMOTE]  GET     200   1344ms <<                      928 B           /liberal/customapi/me
+11:35:14.579  [REMOTE]  GET    ERR_CANCELED      0ms                             -           /liberal/customapi/admin/opinions
+11:35:14.579  [REMOTE]  GET    ERR_CANCELED      0ms                             -           /liberal/customapi/home-layout
+11:35:15.559  [REMOTE]  GET     200    981ms                             -           /liberal/customapi/home-layout
+11:35:15.671  [REMOTE]  GET     200   1092ms <<                       36 B           /liberal/customapi/admin/opinions
+11:35:16.582  [REMOTE]  GET     200   1018ms <<                     1.2 KB           /liberal/customapi/section-templates
+11:35:19.134  [REMOTE]  GET     200   3570ms <<<                   42.9 KB     n=13  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category,field_arthrografos,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | include=field_liberal_category,field_arthrografos
+              | page[offset]=0
+              | page[limit]=17
+              | filter[ids][condition][path]=id
+              | filter[ids][condition][operator]=IN
+              | filter[ids][condition][value][0]=7b78eeb7-6cf0-4809-948b-bdc5a37cfd38
+              | filter[ids][condition][value][1]=5b34b862-19ea-4d16-a163-77f5e30407b0
+              | filter[ids][condition][value][2]=52745851-3fdc-48f6-a12b-1edc5cc56fdd
+              | filter[ids][condition][value][3]=089a8b96-fb8b-45af-8407-8b88fee185a6
+              | filter[ids][condition][value][4]=ae0e7367-e137-4a17-a348-54e69c3e27e3
+              | filter[ids][condition][value][5]=ced44626-b8cc-40a0-82b3-e83e6ea0827b
+              | filter[ids][condition][value][6]=37e0af47-9f17-42e6-9e0b-25da824440d7
+              | filter[ids][condition][value][7]=4c1f7982-57ac-40eb-a391-bbe0cb9e363f
+              | filter[ids][condition][value][8]=943c779c-8e11-4b14-950a-3688cf4c206b
+              | filter[ids][condition][value][9]=81a8bf2e-478a-4606-87ec-b3f65ca54438
+              | filter[ids][condition][value][10]=c7be8bdc-6502-4e09-ae2a-3ce94167eb34
+              | filter[ids][condition][value][11]=7c5857a1-f7d9-4d83-97be-52e32baba64a
+              | filter[ids][condition][value][12]=5e66ac7d-6399-4937-a5d8-f30208ed325b
+              | filter[ids][condition][value][13]=83a37295-fdc4-49f0-9919-7b35648fd0c9
+              | filter[ids][condition][value][14]=5f8d0565-f390-42a3-b92d-4895a6867736
+              | filter[ids][condition][value][15]=240e063f-8b33-47ec-9c7e-552cefa7be2f
+              | filter[ids][condition][value][16]=a54e83bd-a23f-4dfc-87b4-e1df768fe355
+11:35:19.512  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=0
+              | page[limit]=50
+11:35:19.512  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=14
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:19.512  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=50
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:19.512  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=99
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:19.512  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=79
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:19.512  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=103
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:19.512  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=8
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:19.512  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=77
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:21.055  [REMOTE]  GET     200   1545ms <<                    27.1 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=0
+              | page[limit]=50
+11:35:21.164  [REMOTE]  GET     200   1654ms <<                     1.9 KB     n=46  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=14
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:21.250  [REMOTE]  GET     200   1740ms <<                     1.9 KB    n=985  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=50
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:22.135  [REMOTE]  GET    ERR_CANCELED   1063ms <<                          -           /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=50
+              | page[limit]=50
+11:35:22.135  [REMOTE]  GET    ERR_CANCELED   2626ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=99
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:22.135  [REMOTE]  GET    ERR_CANCELED   2626ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=79
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:22.135  [REMOTE]  GET    ERR_CANCELED   2626ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=103
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:22.135  [REMOTE]  GET    ERR_CANCELED   2626ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=8
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:22.135  [REMOTE]  GET    ERR_CANCELED   2626ms <<<                         -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=77
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+11:35:22.136  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+11:35:22.136  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+11:35:22.136  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+11:35:24.332  [REMOTE]  GET     200   2197ms <<<                    3.2 KB      n=6  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+11:35:24.943  [REMOTE]  GET     200   2809ms <<<                   55.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+11:35:25.756  [REMOTE]  GET     200    810ms                       49.0 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+11:35:27.498  [REMOTE]  GET     200   1741ms <<                    40.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+11:35:32.563  [REMOTE]  GET     200  10428ms <<<<                 140.6 KB n=116147  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+11:35:37.567  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=25
+11:35:40.527  [REMOTE]  GET     200   2960ms <<<                   25.3 KB   n=1668  /liberal/unicornapi/taxonomy_term/arthrografos
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+              | page[offset]=0
+              | page[limit]=25
+11:35:44.041  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/arthrografos/d3d23bf1-e9e3-4a8f-ad8f-679d8da0c722
+              | include=field_author_profile
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+11:35:45.443  [REMOTE]  GET     200   1403ms <<                     4.7 KB           /liberal/unicornapi/taxonomy_term/arthrografos/d3d23bf1-e9e3-4a8f-ad8f-679d8da0c722
+              | include=field_author_profile
+              | fields[taxonomy_term--arthrografos]=id,name,field_author_firstname,field_author_lastname,description,field_author_profile
+11:35:52.386  [REMOTE]  GET     200    379ms                             -           /api/auth/session
+              > session refresh πριν το request
+11:35:53.576  [REMOTE]  GET     200   1569ms <<                      928 B           /liberal/customapi/me
+11:35:53.768  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+11:35:53.768  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+11:35:53.768  [REMOTE]  GET    ERR_CANCELED      2ms                             -           /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+11:35:54.814  [REMOTE]  GET     200   1048ms <<                     3.2 KB      n=6  /liberal/unicornapi/taxonomy_term/eidi_arthron
+              | fields[taxonomy_term--eidi_arthron]=name
+              | page[offset]=0
+              | sort=name
+11:35:55.619  [REMOTE]  GET     200   1852ms <<                    55.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=0
+11:35:55.973  [REMOTE]  GET     200   2207ms <<<                  140.6 KB n=116147  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,status,publish_on,created,changed,path,field_liberal_category,field_arthrografos,field_ad_link_article,field_eidos_arthrou,uid,socials_post,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | fields[taxonomy_term--eidi_arthron]=name
+              | include=field_liberal_category,uid,field_arthrografos,field_eidos_arthrou
+              | page[offset]=0
+              | page[limit]=25
+              | sort=-changed
+11:35:56.638  [REMOTE]  GET     200   1019ms <<                    49.0 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=50
+11:35:58.096  [REMOTE]  GET     200   1456ms <<                    40.7 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | include=parent
+              | fields[taxonomy_term--category]=name,status,field_main_menu,parent,changed
+              | page[offset]=100
+17:03:06.758  [REMOTE]  GET     200    339ms                             -           /api/auth/session
+              > session refresh πριν το request
+17:03:08.588  [REMOTE]  GET     200   2170ms <<<                     928 B           /liberal/customapi/me
+17:03:08.691  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/customapi/admin/opinions
+17:03:08.691  [REMOTE]  GET    ERR_CANCELED      1ms                             -           /liberal/customapi/home-layout
+17:03:09.971  [REMOTE]  GET     200   1281ms <<                       36 B           /liberal/customapi/admin/opinions
+17:03:10.679  [REMOTE]  GET     200   1989ms <<                          -           /liberal/customapi/home-layout
+17:03:12.027  [REMOTE]  GET     200   1341ms <<                     1.2 KB           /liberal/customapi/section-templates
+17:03:15.583  [REMOTE]  GET     200   4898ms <<<                   42.9 KB     n=13  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category,field_arthrografos,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | include=field_liberal_category,field_arthrografos
+              | page[offset]=0
+              | page[limit]=17
+              | filter[ids][condition][path]=id
+              | filter[ids][condition][operator]=IN
+              | filter[ids][condition][value][0]=7b78eeb7-6cf0-4809-948b-bdc5a37cfd38
+              | filter[ids][condition][value][1]=5b34b862-19ea-4d16-a163-77f5e30407b0
+              | filter[ids][condition][value][2]=52745851-3fdc-48f6-a12b-1edc5cc56fdd
+              | filter[ids][condition][value][3]=089a8b96-fb8b-45af-8407-8b88fee185a6
+              | filter[ids][condition][value][4]=ae0e7367-e137-4a17-a348-54e69c3e27e3
+              | filter[ids][condition][value][5]=ced44626-b8cc-40a0-82b3-e83e6ea0827b
+              | filter[ids][condition][value][6]=37e0af47-9f17-42e6-9e0b-25da824440d7
+              | filter[ids][condition][value][7]=4c1f7982-57ac-40eb-a391-bbe0cb9e363f
+              | filter[ids][condition][value][8]=943c779c-8e11-4b14-950a-3688cf4c206b
+              | filter[ids][condition][value][9]=81a8bf2e-478a-4606-87ec-b3f65ca54438
+              | filter[ids][condition][value][10]=c7be8bdc-6502-4e09-ae2a-3ce94167eb34
+              | filter[ids][condition][value][11]=7c5857a1-f7d9-4d83-97be-52e32baba64a
+              | filter[ids][condition][value][12]=5e66ac7d-6399-4937-a5d8-f30208ed325b
+              | filter[ids][condition][value][13]=83a37295-fdc4-49f0-9919-7b35648fd0c9
+              | filter[ids][condition][value][14]=5f8d0565-f390-42a3-b92d-4895a6867736
+              | filter[ids][condition][value][15]=240e063f-8b33-47ec-9c7e-552cefa7be2f
+              | filter[ids][condition][value][16]=a54e83bd-a23f-4dfc-87b4-e1df768fe355
+17:03:16.206  [REMOTE]  GET    ERR_CANCELED      4ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=0
+              | page[limit]=50
+17:03:16.206  [REMOTE]  GET    ERR_CANCELED      4ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=14
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:16.206  [REMOTE]  GET    ERR_CANCELED      4ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=50
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:16.206  [REMOTE]  GET    ERR_CANCELED      4ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=99
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:16.206  [REMOTE]  GET    ERR_CANCELED      4ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=79
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:16.206  [REMOTE]  GET    ERR_CANCELED      4ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=103
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:16.207  [REMOTE]  GET    ERR_CANCELED      4ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=8
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:16.207  [REMOTE]  GET    ERR_CANCELED      4ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=77
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:19.932  [REMOTE]  GET     200   3729ms <<<                     442 B      n=0  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=79
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:20.123  [REMOTE]  GET     200   3920ms <<<                     442 B      n=0  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=77
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:20.217  [REMOTE]  GET     200   4014ms <<<                     442 B      n=0  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=99
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:20.836  [REMOTE]  GET     200   4634ms <<<                    1.4 KB      n=1  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=103
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:21.107  [REMOTE]  GET     200   4905ms <<<                    1.9 KB   n=1871  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=8
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:22.819  [REMOTE]  GET     200   6616ms <<<<                   1.9 KB    n=985  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=50
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:24.044  [REMOTE]  GET     200   7842ms <<<<                   1.9 KB     n=46  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=14
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:25.077  [REMOTE]  GET     200   8874ms <<<<                  27.1 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=0
+              | page[limit]=50
+17:03:29.931  [REMOTE]  GET     200    407ms                             -           /api/auth/session
+              > session refresh πριν το request
+17:03:32.151  [REMOTE]  GET     200   2628ms <<<                     928 B           /liberal/customapi/me
+17:03:32.333  [REMOTE]  GET    ERR_CANCELED      6ms                             -           /liberal/customapi/admin/opinions
+17:03:32.333  [REMOTE]  GET    ERR_CANCELED      6ms                             -           /liberal/customapi/home-layout
+17:03:33.293  [REMOTE]  GET     200    966ms                             -           /liberal/customapi/home-layout
+17:03:33.811  [REMOTE]  GET     200   1484ms <<                       36 B           /liberal/customapi/admin/opinions
+17:03:34.789  [REMOTE]  GET     200   1487ms <<                     1.2 KB           /liberal/customapi/section-templates
+17:03:39.378  [REMOTE]  GET     200   6076ms <<<<                  42.9 KB     n=13  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category,field_arthrografos,drupal_internal__nid
+              | fields[taxonomy_term--arthrografos]=name,field_author_firstname,field_author_lastname
+              | include=field_liberal_category,field_arthrografos
+              | page[offset]=0
+              | page[limit]=17
+              | filter[ids][condition][path]=id
+              | filter[ids][condition][operator]=IN
+              | filter[ids][condition][value][0]=7b78eeb7-6cf0-4809-948b-bdc5a37cfd38
+              | filter[ids][condition][value][1]=5b34b862-19ea-4d16-a163-77f5e30407b0
+              | filter[ids][condition][value][2]=52745851-3fdc-48f6-a12b-1edc5cc56fdd
+              | filter[ids][condition][value][3]=089a8b96-fb8b-45af-8407-8b88fee185a6
+              | filter[ids][condition][value][4]=ae0e7367-e137-4a17-a348-54e69c3e27e3
+              | filter[ids][condition][value][5]=ced44626-b8cc-40a0-82b3-e83e6ea0827b
+              | filter[ids][condition][value][6]=37e0af47-9f17-42e6-9e0b-25da824440d7
+              | filter[ids][condition][value][7]=4c1f7982-57ac-40eb-a391-bbe0cb9e363f
+              | filter[ids][condition][value][8]=943c779c-8e11-4b14-950a-3688cf4c206b
+              | filter[ids][condition][value][9]=81a8bf2e-478a-4606-87ec-b3f65ca54438
+              | filter[ids][condition][value][10]=c7be8bdc-6502-4e09-ae2a-3ce94167eb34
+              | filter[ids][condition][value][11]=7c5857a1-f7d9-4d83-97be-52e32baba64a
+              | filter[ids][condition][value][12]=5e66ac7d-6399-4937-a5d8-f30208ed325b
+              | filter[ids][condition][value][13]=83a37295-fdc4-49f0-9919-7b35648fd0c9
+              | filter[ids][condition][value][14]=5f8d0565-f390-42a3-b92d-4895a6867736
+              | filter[ids][condition][value][15]=240e063f-8b33-47ec-9c7e-552cefa7be2f
+              | filter[ids][condition][value][16]=a54e83bd-a23f-4dfc-87b4-e1df768fe355
+17:03:40.056  [REMOTE]  GET    ERR_CANCELED     11ms                             -           /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=0
+              | page[limit]=50
+17:03:40.056  [REMOTE]  GET    ERR_CANCELED     12ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=14
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:40.056  [REMOTE]  GET    ERR_CANCELED     12ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=50
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:40.057  [REMOTE]  GET    ERR_CANCELED     12ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=99
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:40.057  [REMOTE]  GET    ERR_CANCELED     12ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=79
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:40.057  [REMOTE]  GET    ERR_CANCELED     12ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=103
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:40.057  [REMOTE]  GET    ERR_CANCELED     12ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=8
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:40.057  [REMOTE]  GET    ERR_CANCELED     12ms                             -           /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=77
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:41.899  [REMOTE]  GET     200   1852ms <<                      442 B      n=0  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=79
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:42.511  [REMOTE]  GET     200   2464ms <<<                    1.9 KB    n=985  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=50
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:42.686  [REMOTE]  GET     200   2640ms <<<                    1.9 KB     n=46  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=14
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:42.908  [REMOTE]  GET     200   2861ms <<<                    1.9 KB   n=1871  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=8
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:43.006  [REMOTE]  GET     200   2959ms <<<                     442 B      n=0  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=99
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:44.386  [REMOTE]  GET     200   4339ms <<<                    1.4 KB      n=1  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=103
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:44.686  [REMOTE]  GET     200   4639ms <<<                     442 B      n=0  /liberal/unicornapi/node/article_liberal
+              | fields[node--article_liberal]=title,path,field_liberal_category
+              | filter[field_liberal_category.drupal_internal__tid]=77
+              | filter[status]=1
+              | sort=-created
+              | page[limit]=1
+17:03:45.305  [REMOTE]  GET     200   5258ms <<<<                  27.1 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=0
+              | page[limit]=50
+17:03:49.510  [REMOTE]  GET     200   4196ms <<<                   28.1 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=50
+              | page[limit]=50
+17:03:52.073  [REMOTE]  GET     200   2559ms <<<                   20.4 KB    n=136  /liberal/unicornapi/taxonomy_term/category
+              | fields[taxonomy_term--category]=name,status,drupal_internal__tid
+              | page[offset]=100
+              | page[limit]=50
+17:18:48.711  [REMOTE]  POST    401   2663ms <<<                   40.9 KB           /liberal/customapi/session-destroy
+17:18:57.141  [REMOTE]  POST      0   3599ms <<<                         -           /liberal/customapi/session-destroy
+17:18:57.142  [REMOTE]  POST      0   4851ms <<<                         -           /liberal/customapi/session-destroy
+17:18:58.290  [REMOTE]  GET    no-token     24ms                             -           /api/auth/session
+              > session refresh πριν το request
+17:19:02.081  [REMOTE]  GET     403   3814ms <<<                   39.1 KB           /liberal/customapi/me
+17:19:03.447  [REMOTE]  GET    no-token    364ms                             -           /api/auth/session
+              > session refresh πριν το request
+17:19:05.778  [REMOTE]  GET     403   2695ms <<<                   39.1 KB           /liberal/customapi/me
+17:19:08.093  [REMOTE]  GET    no-token    311ms                             -           /api/auth/session
+              > session refresh πριν το request
+17:19:09.575  [REMOTE]  GET     403   1792ms <<                    39.1 KB           /liberal/customapi/me
